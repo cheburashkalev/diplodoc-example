@@ -20,7 +20,11 @@ Enter exactly 12 characters in the input field using the allowed characters. Aft
 
 Please come up with a strong password and remember it, then enter it again.
 
-```Remember, GlobalForce cannot recover any data stored in the application, as it is securely encrypted```
+{% note tip %}
+
+Remember, GlobalForce cannot recover any data stored in the application, as it is securely encrypted
+
+{% endnote %}
 
 ![alt text](image-4.png)
 
@@ -28,7 +32,11 @@ Please come up with a strong password and remember it, then enter it again.
 
 Write down this phrase on paper and keep this sheet in a safe place. With this phrase, you can restore your wallet in case of loss of the device
 
-```Remember, GlobalForce cannot recover any data stored in the application, as it is securely encrypted```
+{% note tip %}
+
+Remember, GlobalForce cannot recover any data stored in the application, as it is securely encrypted
+
+{% endnote %}
 
 ![alt text](image-5.png)
 

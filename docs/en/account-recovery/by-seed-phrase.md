@@ -26,6 +26,12 @@ Click on your account name on the main page. You will see the OnePass menu for a
 
 Please come up with a strong password and remember it, then enter it again.
 
+{% note tip %}
+
+Remember, GlobalForce cannot recover any data stored in the application, as it is securely encrypted
+
+{% endnote %}
+
 ![alt text](image-6.png)
 
 ### Secret Wallet
