@@ -40,13 +40,13 @@ h6 {
     --g-color-private-blue-400-solid: rgb(151, 235, 184);
     --g-color-private-blue-450-solid: rgb(136, 232, 174);
     --g-color-private-blue-500-solid: rgb(121, 229, 164);
-    --g-color-private-blue-550-solid: rgb(106, 226, 154);
-    --g-color-private-blue-600-solid: rgb(97, 207, 141);
+    --g-color-private-blue-550-solid: rgb(106, 148, 226);
+    --g-color-private-blue-600-solid: rgb(97, 123, 207);
     --g-color-private-blue-650-solid: rgb(88, 187, 128);
     --g-color-private-blue-700-solid: rgb(78, 168, 115);
     --g-color-private-blue-750-solid: rgb(69, 148, 102);
     --g-color-private-blue-800-solid: rgb(60, 129, 89);
-    --g-color-private-blue-850-solid: rgb(51, 110, 76);
+    --g-color-private-blue-850-solid: rgb(51, 83, 110);
     --g-color-private-blue-900-solid: rgb(42, 90, 63);
     --g-color-private-blue-950-solid: rgb(32, 71, 50);
     --g-color-private-blue-1000-solid: rgb(28, 61, 44);
@@ -147,7 +147,7 @@ h6 {
 }
 
 .g-root_theme_dark {
-    --g-color-base-background: rgba(22, 32, 27, 1);
+    --g-color-base-background: rgb(22, 24, 32);
 
     --g-color-base-brand: var(--g-color-private-blue-550-solid);
     --g-color-base-brand-hover: var(--g-color-private-blue-650-solid);
