@@ -1,7 +1,7 @@
-title: Documentation Template
+title: Main page
 links:
-  - title: About
-    href: about.md
+  - title: Creating new account
+    href: CreatingNewAccount.md
   - title: Diplodoc page on index page
     href: page.md
   - title: YFM Structure on index page

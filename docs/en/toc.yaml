@@ -1,8 +1,8 @@
-title: Documentation Project Template
+title: Wallet usage guide
 href: index.yaml
 items: 
-  - name: About
-    href: about.md
+  - name: Creating new account
+    href: CreatingNewAccount.md
   - name: Additional page 
     href: page.md
   - name: Another page 
