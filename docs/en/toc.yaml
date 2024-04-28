@@ -3,11 +3,14 @@ href: index.yaml
 items: 
   - name: Creating new account
     href: CreatingNewAccount.md
-  - name: Additional page 
-    href: page.md
+  - name: Account Recovery
+    include:
+      path: account-recovery/toc.yaml
+      mode: link
   - name: Another page 
     href: anotherpage.md
   - name: Sub-Section 
     include:
       path: sub-section/toc.yaml
       mode: link
+    

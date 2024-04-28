@@ -1,0 +1,6 @@
+title: Account recovery
+links:
+  - title: By seed phrase
+    href: by-seed-phrase.md
+  - title: By private key
+    href: by-private-key.md

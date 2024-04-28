@@ -2,8 +2,8 @@ title: Main page
 links:
   - title: Creating new account
     href: CreatingNewAccount.md
-  - title: Diplodoc page on index page
-    href: page.md
+  - title: Account Recovery
+    href: account-recovery/
   - title: YFM Structure on index page
     href: anotherpage.md
   - title: Sub-section on index page
