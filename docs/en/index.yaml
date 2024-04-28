@@ -1,6 +1,7 @@
 title: Main page
 links:
   - title: Creating new account
+    description: Instructions for creating your account.
     href: CreatingNewAccount.md
   - title: Account Recovery
     href: account-recovery/
