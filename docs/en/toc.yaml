@@ -1,6 +1,8 @@
 title: Wallet usage guide
 href: index.yaml
 items: 
+  - name: Wallet usage guide
+    href: index.yaml
   - name: Creating new account
     href: CreatingNewAccount.md
   - name: Account Recovery
