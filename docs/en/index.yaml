@@ -4,7 +4,11 @@ links:
     description: Instructions for creating your account.
     href: CreatingNewAccount.md
   - title: Account Recovery
+    description: Instructions. How to restore your account
     href: account-recovery/
+  - title: Security
+    description: Features to enhance the security of your wallet
+    href: security/
   - title: YFM Structure on index page
     href: anotherpage.md
   - title: Sub-section on index page

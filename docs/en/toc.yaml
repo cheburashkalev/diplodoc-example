@@ -9,6 +9,10 @@ items:
     include:
       path: account-recovery/toc.yaml
       mode: link
+  - name: Security
+    include:
+      path: security/toc.yaml
+      mode: link
   - name: Another page 
     href: anotherpage.md
   - name: Sub-Section 

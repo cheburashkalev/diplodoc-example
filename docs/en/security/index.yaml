@@ -1,0 +1,6 @@
+title: Security
+links:
+  - title: Secure wallet (Secret wallet)
+    description: A special mode of your account in which it becomes impossible for an attacker to detect and decrypt your account data.
+    href: secure-wallet.md
+
