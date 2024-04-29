@@ -3,4 +3,6 @@ href: index.yaml
 items:
   - name: Send tokens
     href: send-tokens.md
+  - name: Receive tokens
+    href: receive-tokens.md
 

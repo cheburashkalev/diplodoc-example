@@ -3,4 +3,7 @@ links:
   - title: Send tokens
     description: how to send tokens to another user
     href: send-tokens.md
+  - title: Receive tokens
+    description: how to receive tokens
+    href: receive-tokens.md
 
