@@ -3,3 +3,5 @@ href: index.yaml
 items:
   - name: Secure wallet (Secret wallet)
     href: secure-wallet.md
+  - name: Using Biometric
+    href: using-biometric.md
