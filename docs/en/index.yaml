@@ -9,7 +9,3 @@ links:
   - title: Security
     description: Features to enhance the security of your wallet
     href: security/
-  - title: YFM Structure on index page
-    href: anotherpage.md
-  - title: Sub-section on index page
-    href: sub-section/

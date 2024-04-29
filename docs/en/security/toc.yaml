@@ -5,3 +5,7 @@ items:
     href: secure-wallet.md
   - name: Using Biometric
     href: using-biometric.md
+  - name: Сhange pin code OnePass
+    href: сhange-pin-code-one-pass.md
+  - name: Getting a private key
+    href: getting-private-key.md

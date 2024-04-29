@@ -6,4 +6,10 @@ links:
   - title: Using Biometric
     description: Alternative login to the OnePass system application
     href: using-biometric.md
+  - title: Сhange pin code OnePass
+    description: Replacing your old PIN with a new one
+    href: сhange-pin-code-one-pass.md
+  - name: Getting a private key
+    description: Getting a private key from your current account
+    href: getting-private-key.md
 

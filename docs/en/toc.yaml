@@ -13,10 +13,5 @@ items:
     include:
       path: security/toc.yaml
       mode: link
-  - name: Another page 
-    href: anotherpage.md
-  - name: Sub-Section 
-    include:
-      path: sub-section/toc.yaml
-      mode: link
+
     
