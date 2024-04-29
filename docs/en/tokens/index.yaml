@@ -6,4 +6,7 @@ links:
   - title: Receive tokens
     description: how to receive tokens
     href: receive-tokens.md
+  - title: Swap Tokens
+    description: how to exchange tokens
+    href: swap-tokens.md
 

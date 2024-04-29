@@ -5,4 +5,6 @@ items:
     href: send-tokens.md
   - name: Receive tokens
     href: receive-tokens.md
+  - name: Swap Tokens
+    href: swap-tokens.md
 
