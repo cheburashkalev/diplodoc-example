@@ -9,3 +9,6 @@ links:
   - title: Security
     description: Features to enhance the security of your wallet
     href: security/
+  - title: Tokens
+    description: Ways to interact with tokens
+    href: tokens/
