@@ -9,4 +9,7 @@ links:
   - title: Swap Tokens
     description: how to exchange tokens
     href: swap-tokens.md
+  - title: Staking
+    description: Features staking
+    href: staking/
 

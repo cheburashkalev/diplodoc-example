@@ -7,4 +7,8 @@ items:
     href: receive-tokens.md
   - name: Swap Tokens
     href: swap-tokens.md
+  - name: Staking
+    include:
+      path: staking/toc.yaml
+      mode: link
 
