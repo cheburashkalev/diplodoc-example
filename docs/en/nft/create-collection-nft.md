@@ -47,6 +47,8 @@ desc - description of the collection
 
 ### Confirm the transaction in the application
 
+![alt text](image-11.png)
+
 ### After successful completion, click on the search icon, enter your username
 
 ![alt text](image-6.png)
