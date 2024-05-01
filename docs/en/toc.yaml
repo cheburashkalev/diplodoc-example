@@ -17,5 +17,9 @@ items:
     include:
       path: tokens/toc.yaml
       mode: link
+  - name: NFT
+    include:
+      path: nft/toc.yaml
+      mode: link
 
     

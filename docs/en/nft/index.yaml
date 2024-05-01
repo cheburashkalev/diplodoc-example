@@ -1,0 +1,26 @@
+title: NFT
+links:
+  - title: Buy NFT from market
+    description: how buy NFT
+    href: buy-nft.md
+  - title: Sell NFT on market
+    description: how sell nft
+    href: sell-nft.md
+  - title: Send NFT
+    description: how to send an NFT to another user
+    href: send-nft.md
+  - title: Stake NFT
+    description: how to stake NFT
+    href: stake-nft.md
+  - title: Create Collection
+    description: how create collection NFT
+    href: create-collection-nft.md
+  - title: Create NFT
+    description: how create NFT
+    href: create-nft.md
+  - title: Burn
+    description: how burn nft
+    href: burn-nft.md
+
+
+

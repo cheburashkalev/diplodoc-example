@@ -12,3 +12,6 @@ links:
   - title: Tokens
     description: Ways to interact with tokens
     href: tokens/
+  - title: NFT
+    description: Ways to interact with NFT
+    href: nft/

@@ -1,0 +1,18 @@
+title: NFT
+href: index.yaml
+items:
+  - name: Buy NFT from market
+    href: buy-nft.md
+  - name: Sell NFT on market
+    href: sell-nft.md
+  - name: Send NFT
+    href: send-nft.md
+  - name: Stake NFT
+    href: stake-nft.md
+  - name: Create Collection
+    href: create-collection-nft.md
+  - name: Create NFT
+    href: create-nft.md
+  - name: Burn
+    href: burn-nft.md
+
