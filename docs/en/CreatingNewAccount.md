@@ -1,4 +1,5 @@
 # Creating new account
+
 ## If you already have an account in the app and you want to add another one
 
 Click on your account name on the main page. You will see the OnePass menu for a quick account change. At the bottom of this menu, click on "Add wallet | Login"
@@ -6,6 +7,7 @@ Click on your account name on the main page. You will see the OnePass menu for a
 ![alt text](image.png)![alt text](image-1.png)
 
 ## Here is the authorization page
+
 Click on "Create wallet"
 
 ![alt text](image-2.png)
@@ -52,6 +54,6 @@ Your wallet is already ready for use, but before using one small question. Would
 
 ![alt text](image-7.png)
 
-# Congratulations, the account has been created!
+# Congratulations, the account has been created
 
 ![alt text](image-8.png)
