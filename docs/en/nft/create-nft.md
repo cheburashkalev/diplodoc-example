@@ -108,15 +108,23 @@ Scan the QR code from your smartphone if you have opened the website on your com
 
 ### Fill in the following fields
 
-id - collection id. Read how [Create Collection NFT](./create-collection-nft.md)
-tname - name of NFT
-creatorfee - How many percent of the purchase of NFT will be listed to you as the Creator (0-100)
-url - адресс вашего сайта (https://example.com)
-asset_id - ID of the Asset you created. [Create Asset for NFT](#how-create-asset-for-nft)
-freezetime - Unix Time (UTC) when your token is defrosted. Use the online converter to get this value. For example [unixtime.org] (https://unixtime.org/). If it is 0, then this token will not be frozen
-lifetime - Unix Time (UTC) when your token is defrosted. Use the online converter to get this value. For example [unixtime.org] (https://unixtime.org/). If 0, then this token will live forever
-immutable - UNSONED Data, json
-mutables - Updated data, json - can be changed by action setnftmdata
+**id** - collection id. Read how [Create Collection NFT](./create-collection-nft.md)
+
+**tname** - name of NFT
+
+**creatorfee** - How many percent of the purchase of NFT will be listed to you as the Creator (0-100)
+
+**url** - адресс вашего сайта (https://example.com)
+
+**asset_id** - ID of the Asset you created. [Create Asset for NFT](#how-create-asset-for-nft)
+
+**freezetime** - Unix Time (UTC) when your token is defrosted. Use the online converter to get this value. For example [unixtime.org](https://unixtime.org/). If it is 0, then this token will not be frozen
+
+**lifetime** - Unix Time (UTC) when your token is defrosted. Use the online converter to get this value. For example [unixtime.org](https://unixtime.org/). If 0, then this token will live forever
+
+**immutable** - UNSONED Data, json
+
+**mutables** - Updated data, json - can be changed by action setnftmdata
 
 ![alt text](image-18.png)
 
