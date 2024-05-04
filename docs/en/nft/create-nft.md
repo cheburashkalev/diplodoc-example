@@ -114,7 +114,7 @@ Scan the QR code from your smartphone if you have opened the website on your com
 
 **creatorfee** - How many percent of the purchase of NFT will be listed to you as the Creator (0-100)
 
-**url** - адресс вашего сайта (https://example.com)
+**url** - The address of your site (https://example.com)
 
 **asset_id** - ID of the Asset you created. [Create Asset for NFT](#how-create-asset-for-nft)
 
