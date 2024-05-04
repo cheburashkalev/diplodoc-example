@@ -68,7 +68,7 @@ base54 - PNG Image in Base64 encoding
 
 ### Save this id
 
-### Now your collection is ready and you can use it to place your nfts
+### Now your Asset is ready and you can use it to publish your nft
 
 ![alt text](image-10.png)
 
