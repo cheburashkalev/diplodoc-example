@@ -4,7 +4,7 @@
 
 {% note tip %}
 
-Вы можете передать NFT любому другому пользователю
+You can transfer NFT to any other user
 
 {% endnote %}
 
