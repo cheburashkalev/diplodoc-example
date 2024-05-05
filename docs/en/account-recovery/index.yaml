@@ -1,6 +1,11 @@
 title: Account recovery
 links:
-  - title: By seed phrase
+  - title: Recovery by seed phrase
+    description: How recovery account by seed phrase
     href: by-seed-phrase.md
-  - title: By private key
+  - title: Recovery by private key
+    description: How recovery account by private key
     href: by-private-key.md
+  - title: Create account
+    description: Instructions for creating your account.
+    href: CreatingNewAccount.md

@@ -3,9 +3,7 @@ href: index.yaml
 items: 
   - name: Wallet usage guide
     href: index.yaml
-  - name: Creating new account
-    href: CreatingNewAccount.md
-  - name: Account Recovery
+  - name: Account
     include:
       path: account-recovery/toc.yaml
       mode: link

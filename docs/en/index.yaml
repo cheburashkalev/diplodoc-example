@@ -1,10 +1,7 @@
 title: Main page
 links:
-  - title: Creating new account
-    description: Instructions for creating your account.
-    href: CreatingNewAccount.md
-  - title: Account Recovery
-    description: Instructions. How to restore your account
+  - title: Account
+    description: Ways to interact with Account
     href: account-recovery/
   - title: Security
     description: Features to enhance the security of your wallet

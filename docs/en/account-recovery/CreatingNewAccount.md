@@ -10,13 +10,13 @@ Click on your account name on the main page. You will see the OnePass menu for a
 
 Click on "Create wallet"
 
-![alt text](image-2.png)
+![alt text](image-11.png)
 
 ### Creating username
 
 Enter exactly 12 characters in the input field using the allowed characters. After entering, the application will check if such an account already exists and if such an account does not exist and you entered the new username correctly, the "next" button will be unlocked
 
-![alt text](image-3.png)
+![alt text](image-12.png)
 
 ### Creating password
 
@@ -28,7 +28,7 @@ Remember, GlobalForce cannot recover any data stored in the application, as it i
 
 {% endnote %}
 
-![alt text](image-4.png)
+![alt text](image-13.png)
 
 ### Write down secret phrase on paper
 
@@ -40,13 +40,13 @@ Remember, GlobalForce cannot recover any data stored in the application, as it i
 
 {% endnote %}
 
-![alt text](image-5.png)
+![alt text](image-14.png)
 
 ### Confirm the secret phrase for recovery
 
 Confirm the last phrase by entering the words that you have saved
 
-![alt text](image-6.png)
+![alt text](image-15.png)
 
 ### Secret Wallet
 
