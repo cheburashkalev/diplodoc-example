@@ -2,7 +2,7 @@ title: Main page
 links:
   - title: Account
     description: Ways to interact with Account
-    href: account-recovery/
+    href: account/
   - title: Security
     description: Features to enhance the security of your wallet
     href: security/

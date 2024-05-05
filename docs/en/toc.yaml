@@ -5,7 +5,7 @@ items:
     href: index.yaml
   - name: Account
     include:
-      path: account-recovery/toc.yaml
+      path: account/toc.yaml
       mode: link
   - name: Security
     include:
