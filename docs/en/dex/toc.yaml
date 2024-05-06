@@ -1,0 +1,13 @@
+title: DEX
+href: index.yaml
+items: 
+  - name: Balance Top Up
+    href: balance-top-up.md
+  - name: Withdrawal from balance in dex
+    href: balance-withdrawal.md
+  - name: Pool Top Up
+    href: pool-top-up.md
+  - name: Withdrawal from pool in dex
+    href: pool-withdrawal.md
+
+    

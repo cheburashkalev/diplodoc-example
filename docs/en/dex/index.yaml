@@ -1,0 +1,15 @@
+title: Decentralized Exchange
+description: You can earn income from replenishing pools in DEX. By replenishing the pool, the number of your tokens in the pool will increase every time someone changes coins in the SWAP. A commission is charged for the exchange in DEX, this commission is distributed among the liquidity providers. By replenishing the pool, you become a liquidity provider.
+links:
+  - title: Balance Top Up
+    description: How to Top Up balance in dex
+    href: balance-top-up.md
+  - title: Withdrawal from balance in dex
+    description: How to withdrawal balance in dex
+    href: balance-withdrawal.md
+  - title: Pool Top Up
+    description: How to Top Up pool in dex
+    href: pool-top-up.md
+  - title: Withdrawal from pool in dex
+    description: How to withdrawal pool in dex
+    href: pool-withdrawal.md
