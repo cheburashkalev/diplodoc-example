@@ -19,5 +19,9 @@ items:
     include:
       path: nft/toc.yaml
       mode: link
+  - name: DEX
+    include:
+      path: dex/toc.yaml
+      mode: link
 
     

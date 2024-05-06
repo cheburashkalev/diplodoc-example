@@ -12,3 +12,6 @@ links:
   - title: NFT
     description: Ways to interact with NFT
     href: nft/
+  - title: DEX
+    description: Decentralized Exchange
+    href: DEX/
