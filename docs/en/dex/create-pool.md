@@ -24,7 +24,7 @@ You can create a pool to the pool if this pool is no longer created
 
 After creating, the pool will need to be replenished with liquidity
 
-[Pool Top Up](../dex/pool-top-up.md)
+[Pool Top Up](./pool-top-up.md)
 
 {% endnote %}
 
