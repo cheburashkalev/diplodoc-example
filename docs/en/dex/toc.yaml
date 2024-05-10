@@ -9,5 +9,7 @@ items:
     href: pool-top-up.md
   - name: Withdrawal from pool in dex
     href: pool-withdrawal.md
+  - name: Create Pool
+    href: create-pool.md
 
     

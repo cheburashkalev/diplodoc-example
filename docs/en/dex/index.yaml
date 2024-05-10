@@ -13,3 +13,6 @@ links:
   - title: Withdrawal from pool in dex
     description: How to withdrawal pool in dex
     href: pool-withdrawal.md
+  - title: Create Pool
+    description: How Create Pool
+    href: create-pool.md
