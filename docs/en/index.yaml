@@ -1,8 +1,9 @@
-title: Global Force Wiki
+title: Global Force Wiki Portal
 links:
+  - title: GlobalForce Blockchain Wiki
+    description: GlobalForce Ecosystem Documentation
+    href: blockchain-wiki/
   - title: GlobalForce Wallet Wiki
     description: Instructions for using a wallet
     href: wallet-wiki/
-  - title: GlobalForce.io Wiki
-    description: GlobalForce Ecosystem Documentation
-    href: blockchain-wiki/
+

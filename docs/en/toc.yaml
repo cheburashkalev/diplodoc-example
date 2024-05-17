@@ -1,13 +1,14 @@
-title: Wallet usage guide
+title: Global Force Wiki Portal
 href: index.yaml
 items: 
+  - name: GlobalForce Blockchain Wiki
+    include:
+      path: blockchain-wiki/toc.yaml
+      mode: link
   - name: GlobalForce Wallet Wiki
     include:
       path: wallet-wiki/toc.yaml
       mode: link
-  - name: GlobalForce Wiki
-    include:
-      path: blockchain-wiki/toc.yaml
-      mode: link
+
 
     

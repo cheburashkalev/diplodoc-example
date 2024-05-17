@@ -1,7 +1,7 @@
 title: GlobalForce Wallet Wiki
 href: index.yaml
 items: 
-  - name: GlobalForce Wallet Wiki
+  - name: GlobalForce Wallet Wiki Toc
     href: index.yaml
   - name: Account
     include:
