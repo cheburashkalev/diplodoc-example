@@ -1,27 +1,13 @@
 title: Wallet usage guide
 href: index.yaml
 items: 
-  - name: Wallet usage guide
-    href: index.yaml
-  - name: Account
+  - name: GlobalForce Wallet Wiki
     include:
-      path: account/toc.yaml
+      path: wallet-wiki/toc.yaml
       mode: link
-  - name: Security
+  - name: GlobalForce Wiki
     include:
-      path: security/toc.yaml
-      mode: link
-  - name: Tokens
-    include:
-      path: tokens/toc.yaml
-      mode: link
-  - name: NFT
-    include:
-      path: nft/toc.yaml
-      mode: link
-  - name: DEX
-    include:
-      path: dex/toc.yaml
+      path: blockchain-wiki/toc.yaml
       mode: link
 
     

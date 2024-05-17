@@ -1,0 +1,17 @@
+title: GlobalForce Wallet Wiki
+links:
+  - title: Account
+    description: Ways to interact with Account
+    href: account/
+  - title: Security
+    description: Features to enhance the security of your wallet
+    href: security/
+  - title: Tokens
+    description: Ways to interact with tokens
+    href: tokens/
+  - title: NFT
+    description: Ways to interact with NFT
+    href: nft/
+  - title: DEX
+    description: Decentralized Exchange
+    href: dex/

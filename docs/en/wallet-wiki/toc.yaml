@@ -1,0 +1,27 @@
+title: GlobalForce Wallet Wiki
+href: index.yaml
+items: 
+  - name: GlobalForce Wallet Wiki
+    href: index.yaml
+  - name: Account
+    include:
+      path: account/toc.yaml
+      mode: link
+  - name: Security
+    include:
+      path: security/toc.yaml
+      mode: link
+  - name: Tokens
+    include:
+      path: tokens/toc.yaml
+      mode: link
+  - name: NFT
+    include:
+      path: nft/toc.yaml
+      mode: link
+  - name: DEX
+    include:
+      path: dex/toc.yaml
+      mode: link
+
+    
