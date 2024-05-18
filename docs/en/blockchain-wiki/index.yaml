@@ -10,6 +10,9 @@ links:
   - title: Platform
     description: Used technologies working with blockchain
     href: ecosystem.md
+  - title: Block producers
+    description: How work Block Producers Globalforce
+    href: block-producers.md
   - title: Exchange
     description: Decentralized exchange
     href: exchange.md

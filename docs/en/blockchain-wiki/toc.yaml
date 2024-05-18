@@ -9,6 +9,8 @@ items:
     href: ecosystem.md
   - name: Platform
     href: ecosystem.md
+  - name: Block producers
+    href: block-producers.md
   - name: Exchange
     href: exchange.md
 
