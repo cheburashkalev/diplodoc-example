@@ -7,3 +7,6 @@ links:
   - title: GlobalForce Ecosystem
     description: Blockchain ecosystem services and features
     href: ecosystem.md
+  - title: Exchange
+    description: Decentralized exchange
+    href: exchange.md
