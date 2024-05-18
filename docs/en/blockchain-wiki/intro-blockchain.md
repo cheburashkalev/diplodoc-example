@@ -14,11 +14,11 @@ The Global Force project proposes to change both the financial and economic mode
 
 ## Technical features
 
-### Compiling WebAssembly C++
+### Compiling ```WebAssembly``` C++
 
 GlobalForce uses C++ as its smart contract programming language. A C++ developer does not need to learn a new programming language to understand how smart contracts work. GlobalForce supports smart contract development using C++ classes and structures. With available C++ programming capabilities, a developer can accelerate GlobalForce smart contract development using canonical GlobalForce C++ code constructs and smart contract APIs.
 
-On top of the main GlobalForce layer, the WebAssembly (Wasm) EOS VM runs smart contract code and from scratch. Wasm is designed to meet the demanding requirements of blockchain applications, which require much more from the WebAssembly engine. The choice to use Wasm allows GlobalForce to reuse optimized and field-tested compilers and toolkits that are supported and improved by the wider community. In addition, the adoption of the Wasm standard also makes it easier for compiler developers to port other programming languages to the GlobalForce platform.
+On top of the main GlobalForce layer, the ```WebAssembly``` (```wasm```) EOS VM runs smart contract code and from scratch. ```wasm``` is designed to meet the demanding requirements of blockchain applications, which require much more from the ```WebAssembly``` engine. The choice to use ```wasm``` allows GlobalForce to reuse optimized and field-tested compilers and toolkits that are supported and improved by the wider community. In addition, the adoption of the ```wasm``` standard also makes it easier for compiler developers to port other programming languages to the GlobalForce platform.
 
 ### Higher throughput, faster confirmations and lower latency
 
