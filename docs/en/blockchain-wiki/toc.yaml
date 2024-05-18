@@ -11,7 +11,17 @@ items:
     href: ecosystem.md
   - name: Block producers
     href: block-producers.md
+  - name: Accounts
+    href: accounts.md
+  - name: Bridges
+    href: bridges.md
   - name: Exchange
     href: exchange.md
+  - name: FTs
+    href: fts.md
+  - name: NFTs
+    href: nfts.md
+  - name: Oracles
+    href: oracles.md
 
     

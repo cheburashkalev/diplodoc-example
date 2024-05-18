@@ -6,7 +6,7 @@ The trading token can be anything originally issued on the GlobalForce network, 
 
 In fact, on the exchange you can purchase any tradable coin for any other, but if we buy something other than GFL or sell it for any other token except GFL, then not one transaction will be made on the exchange, but two.
 
-{% note tip %}
+{% note info %}
 
 Any GlobalForce user can create a trading pair directly from their wallet by sending the corresponding assets to the pair's liquidity pool. Also simple: the user can withdraw his assets from the pool in proportion to the current value of the assets.
 
@@ -16,7 +16,7 @@ The owner or any other user can add a pool of rewards to any trading pair, which
 
 Currently there are no trading commissions on the exchange, but in the future there will be a small trading commission - 0.3% of the transaction amount.
 
-{% note tip %}
+{% note info %}
 
 Swiss Tech Capital AG does not try to make a profit on trading transactions, but only to satisfy the interests of clients.
 

@@ -13,6 +13,22 @@ links:
   - title: Block producers
     description: How work Block Producers Globalforce
     href: block-producers.md
+  - title: Accounts
+    description: Accounts, wallet and permissions
+    href: accounts.md
+  - title: Bridges
+    description: GlobalForce bridges
+    href: bridges.md
   - title: Exchange
     description: Decentralized exchange
     href: exchange.md
+  - title: FTs
+    description: Fungible Tokens
+    href: fts.md
+  - title: NFTs
+    description: NFT protocol
+    href: nfts.md
+  - title: Oracles
+    description: Oracle protocols
+    href: oracles.md
+    
