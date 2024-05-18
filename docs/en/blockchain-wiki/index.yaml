@@ -1,2 +1,9 @@
 title: GlobalForce Blockchain Wiki Toc
 description: GlobalForce is an open source ecosystem based on EOSIO, designed to create and deploy high-performance decentralized applications, aimed at maximizing the end-user experience.
+links:
+  - title: Introduction to GlobalForce
+    description: About blockchain & Technical features
+    href: intro-blockchain.md
+  - title: GlobalForce Ecosystem
+    description: Blockchain ecosystem services and features
+    href: exchange.md

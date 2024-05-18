@@ -3,5 +3,9 @@ href: index.yaml
 items: 
   - name: GlobalForce Blockchain Toc
     href: index.yaml
+  - name: Introduction to GlobalForce
+    href: intro-blockchain.md
+  - name: GlobalForce Ecosystem
+    href: exchange.md
 
     
