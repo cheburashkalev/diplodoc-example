@@ -1,7 +1,7 @@
 langs: ['en']
 allowCustomResources: true
 resources:
-  style:
-    - _assets/style/custom.css
   script:
-    - _assets/script/gtm.js
+    - _assets/gtm.js
+  style:
+    - _assets/custom.css
