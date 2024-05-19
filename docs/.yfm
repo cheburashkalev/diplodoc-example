@@ -2,3 +2,5 @@ langs: ['en']
 resources:
   style:
     - _assets/style/custom.css
+  script:
+    - _assets/script/gtm.js
