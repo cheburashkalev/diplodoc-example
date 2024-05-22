@@ -3,6 +3,8 @@ href: index.yaml
 items: 
   - name: GlobalForce Blockchain Toc
     href: index.yaml
+  - name: Business Strategy
+    href: business-strategy.md
   - name: Introduction to GlobalForce
     href: intro-blockchain.md
   - name: GlobalForce Ecosystem
@@ -23,7 +25,6 @@ items:
     href: nfts.md
   - name: Oracles
     href: oracles.md
-  - name: Business Strategy
-    href: business-strategy.md
+
 
     
