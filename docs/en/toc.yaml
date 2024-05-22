@@ -1,5 +1,12 @@
 title: Global Force Wiki Portal
 href: index.yaml
+analytics:
+  text: 'We use cookies so that you can make the best use of our website. If you continue to use our website, we believe that you agree to such use.'
+  buttons:
+    accept:
+      text: "Ок"
+      theme: "accent"
+      size: "xl"
 items: 
   - name: GlobalForce Blockchain Wiki
     include:
