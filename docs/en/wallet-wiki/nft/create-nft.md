@@ -120,7 +120,7 @@ Scan the QR code from your smartphone if you have opened the website on your com
 
 **freezetime** - Unix Time (UTC) when your token is defrosted. Use the online converter to get this value. For example [unixtime.org](https://unixtime.org/). If it is 0, then this token will not be frozen
 
-**lifetime** - Unix Time (UTC) when your token is defrosted. Use the online converter to get this value. For example [unixtime.org](https://unixtime.org/). If 0, then this token will live forever
+**lifetime** - The time in seconds after which, after creation, the NFT will be destroyed. For example [www.onlineconverter.com/time](https://www.onlineconverter.com/time). If 0, then this token will live forever
 
 **immutable** - UNSONED Data, json
 
