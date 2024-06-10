@@ -10,15 +10,15 @@ docs-viewer:
   # no-index: true # Remove this after the public release
   langs: ['en']
   themes: ['light', 'dark']
-  favicon-src: https://storage.yandexcloud.net/ydb-www-prod-site-assets/favicon-202305/favicon.ico
+  favicon-src: https://firebasestorage.googleapis.com/v0/b/global-force-dev-andrei.appspot.com/o/favicon.ico?alt=media&token=339f8dbe-e0d6-4359-b4d1-c6748a3ebffc
 
-  github-url-prefix: https://github.com/ydb-platform/ydb/tree/main/ydb/docs
+  #github-url-prefix: https://github.com/ydb-platform/ydb/tree/main/ydb/docs
   
   logo-options:
     url:
-      en: https://ydb.tech/
-      default: https://ydb.tech/{lang}
-    src: https://storage.yandexcloud.net/ydb-www-prod-site-assets/logo-full-site-header.svg
+      en: https://globalforce.io/
+      default: https://globalforce.io/
+    src: https://firebasestorage.googleapis.com/v0/b/global-force-dev-andrei.appspot.com/o/logo-full-site-header.svg?alt=media&token=24280c91-6ec1-4da6-944a-12811f797ae3
     src-mobile: https://storage.yandexcloud.net/ydb-www-prod-site-assets/logo-full-site-header.svg
     src-dark: https://storage.yandexcloud.net/ydb-www-prod-site-assets/logo-full-site-header-dark.svg
     src-mobile-dark: https://storage.yandexcloud.net/ydb-www-prod-site-assets/logo-full-site-header-dark.svg
