@@ -132,7 +132,7 @@ h6 {
     --g-color-text-dark-primary: var(--g-color-private-dark-blue-1000-solid);
     --g-color-text-dark-complementary: var(--g-color-private-dark-blue-800);
     --g-color-text-dark-secondary: var(--g-color-private-dark-blue-600);
-    --g-color-text-dark-hint: var(--g-color-private-dark-blue-400);
+    --g-color-text-dark-hint: #00000087;
     --g-color-text-primary: rgba(27, 29, 31, 1);
     --g-color-base-brand: var(--g-color-private-blue-550-solid);
     --g-color-base-brand-hover: var(--g-color-private-blue-650-solid);
