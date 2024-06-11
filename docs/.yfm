@@ -23,7 +23,7 @@ docs-viewer:
     src-dark: https://storage.yandexcloud.net/ydb-www-prod-site-assets/logo-full-site-header-dark.svg
     src-mobile-dark: https://storage.yandexcloud.net/ydb-www-prod-site-assets/logo-full-site-header-dark.svg
     img-has:
-      width: 80px
+      width: 150px
       offset: true
   
   index-page:
