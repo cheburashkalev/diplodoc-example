@@ -19,16 +19,16 @@ docs-viewer:
       en: https://globalforce.io/
       default: https://globalforce.io/
     src: https://firebasestorage.googleapis.com/v0/b/global-force-dev-andrei.appspot.com/o/logo-full-site-header.svg?alt=media&token=24280c91-6ec1-4da6-944a-12811f797ae3
-    src-mobile: https://storage.yandexcloud.net/ydb-www-prod-site-assets/logo-full-site-header.svg
-    src-dark: https://storage.yandexcloud.net/ydb-www-prod-site-assets/logo-full-site-header-dark.svg
-    src-mobile-dark: https://storage.yandexcloud.net/ydb-www-prod-site-assets/logo-full-site-header-dark.svg
+    src-mobile: https://firebasestorage.googleapis.com/v0/b/global-force-dev-andrei.appspot.com/o/logo-full-site-header.svg?alt=media&token=24280c91-6ec1-4da6-944a-12811f797ae3
+    src-dark: https://firebasestorage.googleapis.com/v0/b/global-force-dev-andrei.appspot.com/o/logo-full-site-header-dark.svg?alt=media&token=7c1bbaf7-490c-4756-9f5d-a6edeea69385
+    src-mobile-dark: https://firebasestorage.googleapis.com/v0/b/global-force-dev-andrei.appspot.com/o/logo-full-site-header-dark.svg?alt=media&token=7c1bbaf7-490c-4756-9f5d-a6edeea69385
     img-has:
       width: 150px
       offset: true
   
   index-page:
-    title: YDB Open Source
-    description: Горизонтально масштабируемая распределённая отказоустойчивая СУБД
+    title: Global Force Wiki
+    description: Blockchain infrastructure for decentralized applications
     hidden: true
   gtm:
     id: GTM-MFPK8TTN
