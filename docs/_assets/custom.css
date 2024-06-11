@@ -144,6 +144,7 @@ h6 {
     --g-color-text-brand: var(--g-color-private-blue-700-solid);
     --g-color-text-brand-heavy: var(--g-color-private-blue-850-solid);
     --g-color-line-brand: var(--g-color-private-blue-550-solid);
+    --g-color-header__search-button: rgba(27, 29, 31, 0.4);
 }
 
 .g-root_theme_dark {
@@ -159,8 +160,17 @@ h6 {
     --g-color-text-brand: var(--g-color-private-blue-600-solid);
     --g-color-text-brand-heavy: var(--g-color-private-blue-850-solid);
     --g-color-line-brand: var(--g-color-private-blue-550-solid);
+    --g-color-header__search-button: rgba(235, 235, 235, 1);
 }
-
+.Header__search-button{
+    color: var(--g-color-header__search-button);
+}
+.dc-control{
+    color: var(--g-color-header__search-button);
+}
+.dc-toggle-arrow{
+    color: rgba(14, 164, 245, 1);
+}
 .dc-subscribe__variants-action {
   color: var(--g-color-text-dark-primary);
 }
