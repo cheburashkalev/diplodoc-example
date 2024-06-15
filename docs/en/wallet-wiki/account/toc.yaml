@@ -7,3 +7,5 @@ items:
     href: by-private-key.md
   - name: Create account
     href: CreatingNewAccount.md
+  - name: Reset app data
+    href: reset-data.md
