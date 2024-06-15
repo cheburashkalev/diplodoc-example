@@ -9,10 +9,10 @@ links:
   - title: Сhange pin code OnePass
     description: Replacing your old PIN with a new one
     href: сhange-pin-code-one-pass.md
-  - name: Getting a private key
+  - title: Getting a private key
     description: Getting a private key from your current account
     href: getting-private-key.md
-  - name: Deleting wallet
+  - title: Deleting wallet
     description: Complete deletion of account data
     href: delete-wallet.md
 

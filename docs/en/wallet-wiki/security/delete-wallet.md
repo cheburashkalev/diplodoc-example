@@ -14,7 +14,7 @@
 
 {% note alert %}
 
-Your current wallet "vadim1111111" will be removed.
+Your current wallet will be removed.
 
 {% endnote %}
 
