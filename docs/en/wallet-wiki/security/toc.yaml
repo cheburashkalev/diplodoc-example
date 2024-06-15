@@ -9,3 +9,5 @@ items:
     href: сhange-pin-code-one-pass.md
   - name: Getting a private key
     href: getting-private-key.md
+  - name: Deleting wallet
+    href: delete-wallet.md

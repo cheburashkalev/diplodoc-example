@@ -12,4 +12,7 @@ links:
   - name: Getting a private key
     description: Getting a private key from your current account
     href: getting-private-key.md
+  - name: Deleting wallet
+    description: Complete deletion of account data
+    href: delete-wallet.md
 
