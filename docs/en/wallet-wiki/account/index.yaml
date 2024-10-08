@@ -12,7 +12,7 @@ links:
   - title: KYC
     description: Instructions for KYC
     href: kyc.md
-  - name: Resources
+  - title: Resources
     description: Instructions how to buy resources
     href: resources.md
   - title: Reset app data
