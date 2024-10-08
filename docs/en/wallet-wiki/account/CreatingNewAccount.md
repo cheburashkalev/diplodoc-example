@@ -8,9 +8,13 @@ Click on your account name on the main page. You will see the OnePass menu for a
 
 ## Here is the authorization page
 
-Click on "Create wallet"
+Click on "Create"
 
 ![alt text](image-11.png)
+
+Select "Create new"
+
+![alt text](image-19.png)
 
 ### Creating username
 

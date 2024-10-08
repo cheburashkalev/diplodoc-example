@@ -9,6 +9,12 @@ links:
   - title: Create account
     description: Instructions for creating your account.
     href: CreatingNewAccount.md
+  - title: KYC
+    description: Instructions for KYC
+    href: kyc.md
+  - name: Resources
+    description: Instructions how to buy resources
+    href: resources.md
   - title: Reset app data
     description: How to reset the application data if you forgot the OnePass pincode
     href: reset-data.md

@@ -7,5 +7,9 @@ items:
     href: by-private-key.md
   - name: Create account
     href: CreatingNewAccount.md
+  - name: KYC
+    href: kyc.md
+  - name: Resources
+    href: resources.md
   - name: Reset app data
     href: reset-data.md

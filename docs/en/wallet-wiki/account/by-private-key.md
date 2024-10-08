@@ -6,11 +6,11 @@ Click on your account name on the main page. You will see the OnePass menu for a
 ![alt text](image.png)![alt text](image-1.png)
 
 ## Here is the authorization page
-### Click on "Import wallet"
+### Click on "Import"
 
 ![alt text](image-2.png)
 
-### Select "Import Wallet"
+### Select "By private key"
 
 ![alt text](image-3.png)
 
