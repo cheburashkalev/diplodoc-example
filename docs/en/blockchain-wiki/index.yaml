@@ -12,7 +12,7 @@ links:
     href: ecosystem.md
   - title: Platform
     description: Used technologies working with blockchain
-    href: ecosystem.md
+    href: platform.md
   - title: Block producers
     description: How work Block Producers Globalforce
     href: block-producers.md
