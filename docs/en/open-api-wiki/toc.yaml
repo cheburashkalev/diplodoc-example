@@ -1,0 +1,9 @@
+title: GlobalForce OpenAPI Wiki
+href: index.yaml
+items: 
+  - name: GlobalForce OpenAPI Wiki
+    href: index.yaml
+  - name: State API
+    include:
+      path: state/toc.yaml
+      mode: link
