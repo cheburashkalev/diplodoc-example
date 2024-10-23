@@ -10,7 +10,7 @@ items:
   - name: GlobalForce Ecosystem
     href: ecosystem.md
   - name: Platform
-    href: ecosystem.md
+    href: platform.md
   - name: Block producers
     href: block-producers.md
   - name: Accounts
