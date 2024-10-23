@@ -16,10 +16,10 @@ items:
     include:
       path: wallet-wiki/toc.yaml
       mode: link
-  - name: GlobalForce API Wiki
-    include:
-      path: open-api-wiki/toc.yaml
-      mode: link
+  # - name: GlobalForce API Wiki
+  #   include:
+  #     path: open-api-wiki/toc.yaml
+  #     mode: link
 
 
     

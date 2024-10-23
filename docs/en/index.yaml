@@ -6,6 +6,6 @@ links:
   - title: GlobalForce Wallet Wiki
     description: Instructions for using a wallet
     href: wallet-wiki/
-  - title: GlobalForce API
-    description: OpenAPI documentation
-    href: open-api-wiki/
+  # - title: GlobalForce API
+  #   description: OpenAPI documentation
+  #   href: open-api-wiki/
