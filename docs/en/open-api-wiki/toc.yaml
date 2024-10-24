@@ -7,3 +7,7 @@ items:
     include:
       path: state/toc.yaml
       mode: link
+  - name: NFT API
+    include:
+      path: nft/toc.yaml
+      mode: link

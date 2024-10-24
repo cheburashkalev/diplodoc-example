@@ -3,3 +3,6 @@ links:
   - title: State
     description: StateApi for network
     href: state/
+  - title: NFT
+    description: NFT API
+    href: nft/

@@ -1,6 +1,6 @@
 title: GlobalForce State API Wiki
 description: StateApi for network
 links:
-  - title: Swagger StateApi
+  - title: State API
     description: StateApi for network
     href: state-api.md
