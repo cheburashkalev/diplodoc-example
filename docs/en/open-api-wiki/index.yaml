@@ -6,3 +6,6 @@ links:
   - title: NFT
     description: NFT API
     href: nft/
+  - title: Hyperion
+    description: Hyperion API
+    href: hyperion/

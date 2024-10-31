@@ -11,3 +11,7 @@ items:
     include:
       path: nft/toc.yaml
       mode: link
+  - name: Hyperion History API
+    include:
+      path: nft/toc.yaml
+      mode: link
