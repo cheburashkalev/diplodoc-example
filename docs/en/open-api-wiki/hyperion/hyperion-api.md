@@ -721,7 +721,7 @@
 
 ### /v1/chain/get_block
 
-#### **GET**
+#### GET
 - **Summary**: Returns an object containing various details about a specific block on the blockchain. 
 - **Tags:** chain  
 
@@ -733,7 +733,7 @@
 
 ---
 
-### HEAD
+#### HEAD
 - **Summary:** Returns an object containing various details about a specific block on the blockchain.  
 - **Tags:** chain  
 
@@ -745,7 +745,7 @@
 
 ---
 
-### POST
+#### POST
 - **Summary:** Returns an object containing various details about a specific block on the blockchain.  
 - **Tags:** chain  
 
