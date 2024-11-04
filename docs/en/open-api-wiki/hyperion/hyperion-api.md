@@ -1,6 +1,6 @@
 # History API
 
-![Hyperion Log](https://eosrio.io/hyperion.png)
+![Hyperion Logo](hyperion.png)
 
 ## Endpoints
 
