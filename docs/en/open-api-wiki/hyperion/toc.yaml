@@ -1,7 +1,7 @@
-title: GlobalForce Hyperion API Wiki
+title: GlobalForce History API Wiki
 href: index.yaml
 items: 
-  - name: GlobalForce Hyperion API Wiki
+  - name: GlobalForce History API Wiki
     href: index.yaml
-  - name: Hyperion API
+  - name: History API
     href: hyperion-api.md

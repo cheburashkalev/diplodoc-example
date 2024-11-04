@@ -1,4 +1,6 @@
-# Hyperion API
+# History API
+
+![Hyperion Log](https://eosrio.io/hyperion.png)
 
 ## Endpoints
 
@@ -758,406 +760,406 @@
 
 ---
 
-## /v1/chain/get_block_header_state
+### /v1/chain/get_block_header_state
 
-### GET
+#### GET
 
 - **Summary:** Retrieves the block header state.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - `block_num_or_id` (string, required): Provide a block number or a block ID.  
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-### HEAD
+##### HEAD
 
 - **Summary:** Retrieves the block header state.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - `block_num_or_id` (string, required): Provide a block number or a block ID.  
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-### POST
+#### POST
 
 - **Summary:** Retrieves the block header state.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - **Body** (object, required):
   - `block_num_or_id` (string, required): Provide a block number or a block ID.  
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-## /v1/chain/get_code
+### /v1/chain/get_code
 
-### GET
+#### GET
 
 - **Summary:** Retrieves contract code.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - `account_name` (string, required): The name of the account.  
 - `code_as_wasm` (integer, required, default: 1): This must be 1 (true).  
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-### HEAD
+#### HEAD
 
 - **Summary:** Retrieves contract code.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - `account_name` (string, required): The name of the account.  
 - `code_as_wasm` (integer, required, default: 1): This must be 1 (true).  
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-### POST
+#### POST
 
 - **Summary:** Retrieves contract code.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - **Body** (object, required):
   - `account_name` (string, required): The name of the account.  
   - `code_as_wasm` (integer, required, default: 1): This must be 1 (true).  
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-## /v1/chain/get_currency_balance
+### /v1/chain/get_currency_balance
 
-### GET
+#### GET
 
 - **Summary:** Retrieves the current balance.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - `code` (string, required): Currency code.  
 - `account` (string, required): Account name.  
 - `symbol` (string, required): Token symbol.  
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-### HEAD
+#### HEAD
 
 - **Summary:** Retrieves the current balance.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - `code` (string, required): Currency code.  
 - `account` (string, required): Account name.  
 - `symbol` (string, required): Token symbol.  
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-### POST
+#### POST
 
 - **Summary:** Retrieves the current balance.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - **Body** (object, required):
   - `code` (string, required): Currency code.  
   - `account` (string, required): Account name.  
   - `symbol` (string, required): Token symbol.  
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-## /v1/chain/get_currency_stats
+### /v1/chain/get_currency_stats
 
-### GET
+#### GET
 
 - **Summary:** Retrieves currency stats.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - `code` (string, required): Currency code.  
 - `symbol` (string, required): Token symbol.  
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-### HEAD
+#### HEAD
 
 - **Summary:** Retrieves currency stats.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - `code` (string, required): Currency code.  
 - `symbol` (string, required): Token symbol.  
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-### POST
+#### POST
 
 - **Summary:** Retrieves currency stats.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - **Body** (object, required):
   - `code` (string, required): Currency code.  
   - `symbol` (string, required): Token symbol.  
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-## /v1/chain/get_info
+### /v1/chain/get_info
 
-### GET
+#### GET
 
 - **Summary:** Returns an object containing various details about the blockchain.  
 - **Tags:** chain  
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-### HEAD
+#### HEAD
 
 - **Summary:** Returns an object containing various details about the blockchain.  
 - **Tags:** chain  
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-### POST
+#### POST
 
 - **Summary:** Returns an object containing various details about the blockchain.  
 - **Tags:** chain  
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
 ## /v1/chain/get_producers
 
-### GET
+#### GET
 
 - **Summary:** Retrieves producers list.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - `limit` (string, optional): Total number of producers to retrieve.  
 - `lower_bound` (string, optional): In conjunction with limit can be used to paginate through the results.  
 - `json` (boolean, optional): Return result in JSON format.  
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-### HEAD
+#### HEAD
 
 - **Summary:** Retrieves producers list.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - `limit` (string, optional): Total number of producers to retrieve.  
 - `lower_bound` (string, optional): In conjunction with limit can be used to paginate through the results.  
 - `json` (boolean, optional): Return result in JSON format.  
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-### POST
+#### POST
 
 - **Summary:** Retrieves producers list.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - **Body** (object, required):
   - `limit` (string, optional): Total number of producers to retrieve.  
   - `lower_bound` (string, optional): In conjunction with limit can be used to paginate through the results.  
   - `json` (boolean, optional): Return result in JSON format.  
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-## /v1/chain/get_raw_abi
+### /v1/chain/get_raw_abi
 
-### GET
+#### GET
 
 - **Summary:** Retrieves raw ABI for a contract based on account name.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - `account_name` (string, required): Account name.
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-### HEAD
+#### HEAD
 
 - **Summary:** Retrieves raw ABI for a contract based on account name.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - `account_name` (string, required): Account name.
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-### POST
+#### POST
 
 - **Summary:** Retrieves raw ABI for a contract based on account name.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - **Body** (object, required):
   - `account_name` (string, required): Account name.
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-## /v1/chain/get_raw_code_and_abi
+### /v1/chain/get_raw_code_and_abi
 
-### GET
+#### GET
 
 - **Summary:** Retrieves raw code and ABI for a contract based on account name.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - `account_name` (string, required): Account name.
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-### HEAD
+#### HEAD
 
 - **Summary:** Retrieves raw code and ABI for a contract based on account name.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - `account_name` (string, required): Account name.
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-### POST
+#### POST
 
 - **Summary:** Retrieves raw code and ABI for a contract based on account name.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - **Body** (object, required):
   - `account_name` (string, required): Account name.
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-## /v1/chain/get_scheduled_transaction
+### /v1/chain/get_scheduled_transaction
 
-### GET
+#### GET
 
 - **Summary:** Retrieves the scheduled transaction.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - `lower_bound` (string, optional): Date/time string in the format YYYY-MM-DDTHH:MM:SS.sss.
 - `limit` (integer, optional): The maximum number of transactions to return.
 - `json` (boolean, optional): Whether the packed transaction is converted to JSON.
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-### HEAD
+#### HEAD
 
 - **Summary:** Retrieves the scheduled transaction.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - `lower_bound` (string, optional): Date/time string in the format YYYY-MM-DDTHH:MM:SS.sss.
 - `limit` (integer, optional): The maximum number of transactions to return.
 - `json` (boolean, optional): Whether the packed transaction is converted to JSON.
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-### POST
+#### POST
 
 - **Summary:** Retrieves the scheduled transaction.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - **Body** (object, required):
   - `lower_bound` (string, optional): Date/time string in the format YYYY-MM-DDTHH:MM:SS.sss.
   - `limit` (integer, optional): The maximum number of transactions to return.
   - `json` (boolean, optional): Whether the packed transaction is converted to JSON.
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-## /v1/chain/get_table_by_scope
+### /v1/chain/get_table_by_scope
 
-### GET
+#### GET
 
 - **Summary:** Retrieves table scope.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - `code` (string, required): Name of the contract to return table data for.
 - `table` (string, optional): Filter results by table.
 - `lower_bound` (string, optional): Filters results to return the first element that is not less than the provided value in the set.
@@ -1165,17 +1167,17 @@
 - `limit` (integer, optional): Limit the number of results returned.
 - `reverse` (boolean, optional): Reverse the order of returned results.
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-### HEAD
+#### HEAD
 
 - **Summary:** Retrieves table scope.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - `code` (string, required): Name of the contract to return table data for.
 - `table` (string, optional): Filter results by table.
 - `lower_bound` (string, optional): Filters results to return the first element that is not less than the provided value in the set.
@@ -1183,17 +1185,17 @@
 - `limit` (integer, optional): Limit the number of results returned.
 - `reverse` (boolean, optional): Reverse the order of returned results.
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-### POST
+#### POST
 
 - **Summary:** Retrieves table scope.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - **Body** (object, required):
   - `code` (string, required): Name of the contract to return table data for.
   - `table` (string, optional): Filter results by table.
@@ -1202,19 +1204,19 @@
   - `limit` (integer, optional): Limit the number of results returned.
   - `reverse` (boolean, optional): Reverse the order of returned results.
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-## /v1/chain/get_table_rows
+### /v1/chain/get_table_rows
 
-### GET
+#### GET
 
 - **Summary:** Returns an object containing rows from the specified table.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - `code` (string, required): The name of the smart contract that controls the provided table.
 - `table` (string, required): The name of the table to query.
 - `scope` (string, optional): The account to which this data belongs.
@@ -1224,29 +1226,29 @@
 - `upper_bound` (string, optional): Upper bound for the query.
 - `lower_bound` (string, optional): Lower bound for the query.
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-### HEAD
+#### HEAD
 
 - **Summary:** Returns an object containing rows from the specified table.  
 - **Tags:** chain  
 
-#### **Parameters:** (Same as GET)
+##### **Parameters:** (Same as GET)
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-### POST
+#### POST
 
 - **Summary:** Returns an object containing rows from the specified table.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - **Body** (object, required):
   - `code` (string, required): The name of the smart contract that controls the provided table.
   - `table` (string, required): The name of the table to query.
@@ -1257,38 +1259,38 @@
   - `upper_bound` (string, optional): Upper bound for the query.
   - `lower_bound` (string, optional): Lower bound for the query.
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-## /v1/chain/push_transaction
+### /v1/chain/push_transaction
 
-### POST
+#### POST
 
 - **Summary:** This method expects a transaction in JSON format and will attempt to apply it to the blockchain.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - **Body** (object, required):
   - `signatures` (array, required): Array of signatures required to authorize the transaction.
   - `compression` (boolean, optional): Compression used, usually false.
   - `packed_context_free_data` (string, optional): JSON to hex.
   - `packed_trx` (string, required): Transaction object JSON to hex.
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-## /v1/chain/push_transactions
+### /v1/chain/push_transactions
 
-### POST
+#### POST
 
 - **Summary:** This method expects a transaction in JSON format and will attempt to apply it to the blockchain.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - **Body** (object, required):
   - `expiration` (integer, required): Transaction expiration time.
   - `ref_block_num` (integer, required): Reference block number.
@@ -1300,41 +1302,33 @@
   - `actions` (array, required): Actions to be executed.
   - `transaction_extensions` (array, optional): Transaction extensions.
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-## /v1/chain/send_transaction
+### /v1/chain/send_transaction
 
-### POST
+#### POST
 
 - **Summary:** This method expects a transaction in JSON format and will attempt to apply it to the blockchain.  
 - **Tags:** chain  
 
-#### **Parameters:**
+##### **Parameters:**
 - **Body** (object, required):
   - `signatures` (array, required): Array of signatures required to authorize the transaction.
   - `compression` (boolean, optional): Compression used, usually false.
   - `packed_context_free_data` (string, optional): JSON to hex.
   - `packed_trx` (string, required): Transaction object JSON to hex.
 
-#### **Responses:**
+##### **Responses:**
 - **200**: Default Response
 
 ---
 
-## /v1/chain/*
+### /v1/chain/*
 
-### GET  
-
-- **Summary:** Wildcard chain API handler.  
-- **Responses:**
-  - **200**: Default Response
-
----
-
-### POST  
+#### GET  
 
 - **Summary:** Wildcard chain API handler.  
 - **Responses:**
@@ -1342,9 +1336,17 @@
 
 ---
 
-## /v1/node/get_supported_apis
+#### POST  
 
-### GET  
+- **Summary:** Wildcard chain API handler.  
+- **Responses:**
+  - **200**: Default Response
+
+---
+
+### /v1/node/get_supported_apis
+
+#### GET  
 
 - **Summary:** Get list of supported APIs.  
 - **Responses:**
@@ -1799,3 +1801,7 @@
               - `account` (string): Authorized account.
               - `permission` (string): Required permission.
           - `data` (object): Additional data associated with the action.
+
+## Credits
+
+Made with ♥️ by [EOS Rio](https://eosrio.io/)
