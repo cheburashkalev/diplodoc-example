@@ -972,7 +972,7 @@
 
 ---
 
-## /v1/chain/get_producers
+### /v1/chain/get_producers
 
 #### GET
 
@@ -1355,7 +1355,7 @@
 
 ## Schemas
 
-#### **CheckTransactionResult**
+### **CheckTransactionResult**
 - **Description:** Server response for checking transaction inclusion
 - **Type:** object
 - **Properties**:
@@ -1384,7 +1384,7 @@
 
 ---
 
-#### **ActionResponse**
+### **ActionResponse**
 - **Description:** Server response for retrieving root actions
 - **Type:** object
 - **Properties**:
@@ -1447,7 +1447,7 @@
 
 ---
 
-#### **CreatedAccountsResponse**
+### **CreatedAccountsResponse**
 - **Description:** Server response for retrieving created accounts
 - **Type:** object
 - **Properties**:
@@ -1468,7 +1468,7 @@
 
 ---
 
-#### **CreatorResponse**
+### **CreatorResponse**
 - **Description:** Server response for retrieving account creator information
 - **Type:** object
 - **Properties**:
@@ -1489,7 +1489,7 @@
 
 ---
 
-#### **DeltasResponse**
+### **DeltasResponse**
 - **Description:** Server response for retrieving state deltas
 - **Type:** object
 - **Properties**:
@@ -1516,7 +1516,7 @@
 
 ---
 
-#### **ScheduleResponse**
+### **ScheduleResponse**
 - **Description:** Server response for retrieving producer schedule by version
 - **Type:** object
 - **Properties**:
@@ -1539,7 +1539,7 @@
 
 ---
 
-#### **TableStateResponse**
+### **TableStateResponse**
 - **Description:** Server response for retrieving the state of a table at a specific block height
 - **Type:** object
 - **Properties**:
@@ -1568,7 +1568,7 @@
       - `data` (object): Additional data, additional properties allowed
 ---
 
-#### **TransactionResponse**
+### **TransactionResponse**
 - **Description:** Server response for retrieving transaction details by ID
 - **Type:** object
 - **Properties**:
@@ -1576,7 +1576,7 @@
 
 ---
 
-#### **AccountSummaryResponse**
+### **AccountSummaryResponse**
 - **Description:** Server response for retrieving an account summary
 - **Type:** object
 - **Properties**:
@@ -1642,7 +1642,7 @@
 
 ---
 
-#### **KeyAccountsResponse**
+### **KeyAccountsResponse**
 - **Description:** Server response containing account names and optional permission details linked to a public key
 - **Type:** object
 - **Properties**:
@@ -1660,7 +1660,7 @@
 
 ---
 
-#### **PermissionLinksResponse**
+### **PermissionLinksResponse**
 - **Description:** Server response containing permission link information
 - **Type:** object
 - **Properties**:
@@ -1684,7 +1684,7 @@
 
 ---
 
-#### **VotersResponse**
+### **VotersResponse**
 - **Type:** object
 - **Properties**:
   - `query_time_ms` (number): Query time in milliseconds
@@ -1703,7 +1703,7 @@
 
 ---
 
-#### **MissedBlocksResponse**
+### **MissedBlocksResponse**
 - **Type:** object
 - **Properties**:
   - `query_time_ms` (number): Query execution time in milliseconds
@@ -1724,7 +1724,7 @@
 
 ---
 
-#### **ActionsResponse**
+### **ActionsResponse**
 - **Type:** object
 - **Properties**:
   - `query_time` (number): Time taken for the query
