@@ -63,7 +63,7 @@ gf.dex claim '[ "useraccount", "gf.cdt", "4,CDT" ]'
 - **Symbol ticker**: pool token symbol
 - **Asset price**: starting price of the pool
 
-### Example
+#### Example
 ```
 {
   account: "useraccount",
@@ -96,7 +96,7 @@ After creation, the pool is available in the pools table:
 - **Memo** - ``add_balance``
 - **Table** - ``balance``
 
-### Example
+#### Example
 ``https://history.dev.globalforce.io/v1/chain/get_table_rows?code=gf.dex&scope=testdexacco1&table=balance&json=true&lower_bound=testdextknaa&limit=2``
 
 ```json
@@ -125,7 +125,7 @@ After creation, the pool is available in the pools table:
 - **Contract Name**: pool token contract
 - **Symbol Market**: the amount of CFF tokens being added to the pool. The amount of paired tokens is calculated in the smart contract and deducted from the balance table.  
 
-### Example
+#### Example
 ```
 {  
 	account: "tokenrerere2",  
@@ -140,7 +140,7 @@ After adding to the pool, a new object is added to the pooled table
 
 - **Table** - ``pooled``
 
-### Example
+#### Example
 
 ``https://history.dev.globalforce.io/v1/chain/get_table_rows?code=gf.dex&scope=gf.cdt&table=pooled&index_position=2&key_type=i64&json=true&lower_bound=testdexacco1&limit=10``
 
@@ -160,7 +160,7 @@ After adding to the pool, a new object is added to the pooled table
   ]
 ```
 
-### Trading
+## Trading
 
 To trade, you need to send a token transfer to the exchange's smart contract. If the token is CFF, you must specify the pool token's smart contract in the memo.
 for example:
@@ -178,7 +178,7 @@ for example:
 - **Contract Name**: pool contract
 - **Id**: uint64_t ID of the pool share in the pooled.id table
 
-### Example
+#### Example
 
 ```
 {  
@@ -197,7 +197,7 @@ withdraw '[ "tokenrerere2", "gf.cdt", 123 ]'
 - **Contract Name**: all tokens in the balances.balance[i].contract table
 - **Asset Quantity**: amount
 
-### Example
+#### Example
 
 ```
 {  
