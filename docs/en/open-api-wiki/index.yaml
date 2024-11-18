@@ -9,3 +9,6 @@ links:
   - title: History
     description: History API
     href: hyperion/
+  - title: Smart Contracts
+    description: Smart Contract API
+    href: smart-contract/

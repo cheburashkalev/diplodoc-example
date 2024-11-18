@@ -11,7 +11,7 @@ items:
     include:
       path: nft/toc.yaml
       mode: link
-  - name: History API
+  - name: Smart Contract API
     include:
-      path: hyperion/toc.yaml
+      path: smart-contract/toc.yaml
       mode: link

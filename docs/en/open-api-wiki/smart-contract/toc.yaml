@@ -1,0 +1,7 @@
+title: GlobalForce Smart Contracts Wiki
+href: index.yaml
+items: 
+  - name: GlobalForce Smart Contracts Wiki
+    href: index.yaml
+  - name: DEX API
+    href: dex.md
