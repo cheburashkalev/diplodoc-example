@@ -5,3 +5,5 @@ items:
     href: index.yaml
   - name: DEX API
     href: dex.md
+  - name: NFT API
+    href: nft.md

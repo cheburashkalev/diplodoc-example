@@ -4,3 +4,6 @@ links:
   - title: DEX
     description: DEX API
     href: dex.md
+  - title: NFT
+    description: NFT API
+    href: nft.md
