@@ -76,14 +76,14 @@
 - **Properties:**
   - `tid` (integer): Unique token ID, example: 977
   - `cid` (integer): Collection ID, example: 2
-  - `tname` (string): Token name, example: WarDefi Dreamhack Summon Sphere
+  - `tname` (string): Token name, example: Super Awesome Meme Token
   - `cname` (string): Collection name (max: 128 characters), example: Simple Collections
   - `cdesc` (string): Collection description (max: 1024 characters), example: Descr Collections
   - `cowner` (string): Collection owner, example: testtestte44
   - `towner` (string): Token owner, example: testtestte44
   - `tcreator` (string): Token creator, example: testtestte44
   - `tcreatorfee` (integer): Creator fee percentage, example: 0
-  - `turl` (string): URL in token description (optional), example: https://wardefi.com
+  - `turl` (string): URL in token description (optional), example: https://my-aswesome-token.com
   - `asset_id` (integer): Asset ID, example: 1021
   - `base64` (string): Base64 encoded image string, example: iVBORw0KGgoAAAANSUhEUgAAA9QAAAN
   - `sell` (integer): Market flag: 1 if listed for sale, example: 0
@@ -119,14 +119,14 @@
     {
       "tid": 977,
       "cid": 2,
-      "tname": "WarDefi Dreamhack Summon Sphere",
+      "tname": "Meme NFT Card",
       "cname": "Simple Collections",
       "cdesc": "Descr Collections",
       "cowner": "testtestte44",
       "towner": "testtestte44",
       "tcreator": "testtestte44",
       "tcreatorfee": 0,
-      "turl": "https://wardefi.com",
+      "turl": "https://your-meme.com",
       "asset_id": 1021,
       "base64": "iVBORw0KGgoAAAANSUhEUgAAA9QAAAN",
       "sell": 0,
