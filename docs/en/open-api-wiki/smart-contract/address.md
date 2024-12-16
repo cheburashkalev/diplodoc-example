@@ -1,6 +1,6 @@
-# Adress
+# Address
 ```
-gf.adress
+gf.address
 ```
 
 ``https://history.dev.globalforce.io/v1/chain/get_table_rows?code=gf.address&scope=useraccount&table=address&json=true&lower_bound=gf&limit=1``
