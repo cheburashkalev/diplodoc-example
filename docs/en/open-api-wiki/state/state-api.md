@@ -1,4 +1,3 @@
-
 # State API
 
 ## Servers
@@ -41,7 +40,7 @@
     - **account_name** (required, string): The account name.
       - Example: `todoboostamg`
   - **Responses:**
-    - `200`: if successful return `{"balance":"59321693.8766 GFT"}`
+    - `200`: if successful return `{"balance":"59321693.8766 GFL"}`
 
 ---
 
@@ -67,4 +66,4 @@
     - **limit** (required, integer, int64): The number of top holders to return.
       - Example: `1000`
   - **Responses:**
-    - `200`: if successful return `[{"account":"eosio","amount":140000001,"balance":"140000001.0000 GFT"}]`
+    - `200`: if successful return `[{"account":"eosio","amount":140000001,"balance":"140000001.0000 GFL"}]`

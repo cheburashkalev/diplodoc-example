@@ -2,8 +2,14 @@ title: GlobalForce Smart Contracts Wiki
 description: Smart Contracts API
 links:
   - title: DEX
-    description: DEX API
+    description: DEX
     href: dex.md
+  - title: Hold
+    description: Hold
+    href: hold.md
   - title: NFT
-    description: NFT API
+    description: NFT
     href: nft.md
+  - title: Adress
+    description: Adress
+    href: adress.md

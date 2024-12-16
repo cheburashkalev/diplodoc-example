@@ -1,4 +1,4 @@
-# DEX API
+# DEX
 
 ## Exchange Workflow
 
@@ -6,13 +6,13 @@
 ```
 gf.dex create [ "useraccount", "gf.eth", "8,ETH", "3.2500 GFT" ]
 ```
-``Token Contract | Action | [ User | Token Account | Token Symbol | Token Price ]``
+``Contract | Action | [ User | Token Account | Token Symbol | Token Price ]``
 
 ### Depositing Balance to the Exchange
 ```
 gf.eth transfer '[ "useraccount", "gf.dex", "10.10000000 ETH", "add_balance" ]'
 ```
-``Token Contract | Action | [ User | Exchange Account | Transfer Amount | Memo with Deposit Identifier ]``
+``Contract | Action | [ User | Exchange Account | Transfer Amount | Memo with Deposit Identifier ]``
 
 ### Transferring Funds from User Balance to Pool
 ```
@@ -24,22 +24,22 @@ gf.dex deposit '[ "useraccount", "gf.eth", "20.0000 GFL" ]'
 ```
 eosio.token transfer '[ "useraccount", "gf.eth", "0.6000 GFL", "gf.trx" ]'
 ```
-``Token Contract | Action | [ User | Exchange Account | Exchange Amount | Memo with "Token Account for Exchange" parameters ]``
+``Contract | Action | [ User | Exchange Account | Exchange Amount | Memo with "Token Account for Exchange" parameters ]``
 - Exchange TRX to GFL (by market) - do not specify anything in the memo
 - Exchange TRX to ETH - specify **gf.eth** (exchange contract) in the memo
 -  Exchange GFL to TRX - specify **gf.trx** (exchange contract) in the memo
 
-###  Withdrawing Free Tokens from the Exchange Balance
+### Withdrawing Free Tokens from the Exchange Balance
 ```
 gf.dex withdraw '[ "useraccount", "gf.eth", " 0.10000000 ETH"]'
 ```
-``Exchange Contract | Action | [ User | Token Contract | Withdrawal Amount from the balance table `balance.quantity` ]``
+``Exchange Contract | Action | [ User | Contract | Withdrawal Amount from the balance table `balance.quantity` ]``
 
 
 ## Action '**Create**'
 
 - **Account name**: owner
-- **Contract name**: pool token contract
+- **Contract name**: pool contract
 - **Symbol ticker**: pool token symbol
 - **Asset price**: starting price of the pool
 
@@ -93,7 +93,7 @@ After creation, the pool is available in the pools table:
 ## Action '**Deposit**'
 
 - **Account Name**: owner
-- **Contract Name**: pool token contract
+- **Contract Name**: pool contract
 - **Symbol Market**: the amount of GFL tokens being added to the pool. The amount of paired tokens is calculated in the smart contract and deducted from the balance table.  
 
 #### Example

@@ -33,3 +33,5 @@ After creating, the pool will need to be replenished with liquidity
 ### Click on Create Pool
 
 ### You have successfully created a pool in DEX
+
+If the pool has been created previously, it can only be replenished. If the pool has not been created previously, it can be created.

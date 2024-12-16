@@ -1,4 +1,4 @@
-# NFT API
+# NFT
 
 ## ACTION `cncreate`
 **Create a collection.**
@@ -73,7 +73,7 @@
 - **Parameters:**
   - `id` (uint64_t): Token ID.
   - `price` (asset): Sale price in the specified token. Example: `1.0000 GFL`.
-  - `token` (name): Token contract for the sale. Example: `eosio.token`.
+  - `token` (name): Contract for the sale. Example: `eosio.token`.
 
 
 ## ACTION `unsellnft`
@@ -88,48 +88,7 @@
 **To purchase a token, transfer the specified amount to the smart contract address with the token order ID in the memo.**
 
 ### Example:
-- **From**: `testedemonft`  
+- **From**: `testaccount`  
 - **To**: `gf.nft`  
-- **Quantity**: `1.0000 USDTEST`  
+- **Quantity**: `1.0000 USDT`  
 - **Memo**: `153`
-
-## UI Representation
-
-### Token Data (From the Table):
-- **`tid`**: Token ID.
-- **`cid`**: Collection ID. *(Can load the collection name and description.)*
-- **`tname`**: Token name.
-- **`towner`**: Token owner.
-- **`tcreator`**: Token creator.
-- **`tcreatorfee`**: Creator's sale commission percentage.
-- **`turl`**: URL.
-- **`asset_id`**: Asset ID.
-- **`base64`**: Base64 data.
-- **`sell`**: Sale status.
-  - `0`:  
-    - **Owner View**: Show "Sell" button. Triggers `sellnft` action.  
-    - **User View**: Only visible in search results.
-  - `1`:  
-    - **Owner View**: Show "Remove from Sale" button. Triggers `unsellnft` action.  
-    - **User View**: Show "Buy" button to purchase the token.
-- **`tstake`**: Stake status.
-  - `0`:  
-    - **Owner View**: Show "Stake" button. Triggers `stakenft` action.
-  - `1`:  
-    - **Owner View**: Show "Unstake" button. Triggers `unstakenft` action.
-- **`tfreezetime`**: Timestamp.  
-  - If non-zero and less than the current time, the following actions are blocked:
-    - `stakenft`
-    - `unstakenft`
-    - `burnnft`
-    - `setnftowner`
-    - `sellnft`
-    - `unsellnft`
-    - Token purchase.
-- **`tlifetime`**: Lifespan in seconds.  
-  - If non-zero:  
-    `current_time - (last_update + tlifetime)` = Remaining token lifespan in days, hours, and minutes.
-- **`idata`**: Immutable JSON data (if available).
-- **`mdata`**: Mutable JSON data (if available).  
-  - **Owner View**: Show "Edit" button. Triggers `setnftmdata` action.
-- **`last_update`**: Token creation timestamp.

@@ -3,7 +3,11 @@ href: index.yaml
 items: 
   - name: GlobalForce Smart Contracts Wiki
     href: index.yaml
-  - name: DEX API
+  - name: DEX
     href: dex.md
-  - name: NFT API
+  - name: Hold
+    href: hold.md
+  - name: NFT
     href: nft.md
+  - name: Adress
+    href: address.md
