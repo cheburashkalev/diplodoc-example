@@ -99,6 +99,7 @@ After unstake data is available in table ``stake``:
 {
   "account": "useraccount"
 }
+```
 
 ``https://history.dev.globalforce.io/v1/chain/get_table_rows?code=gf.hold&scope=gf.hold&table=stake&json=true&lower_bound=useraccount&limit=1``
 
