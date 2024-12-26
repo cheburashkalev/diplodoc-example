@@ -13,3 +13,18 @@ links:
   - title: Address
     description: Address
     href: address.md
+  - title: Fees
+    description: Fees
+    href: fee.md
+  - title: Types
+    description: Types
+    href: types.md
+  - title: Price
+    description: Price
+    href: price.md
+  - title: KYC
+    description: Know Your Customer
+    href: kyc.md
+  - title: Asset
+    description: Asset
+    href: asset.md

@@ -11,3 +11,13 @@ items:
     href: nft.md
   - name: Adress
     href: address.md
+  - name: Fee
+    href: fee.md
+  - name: Types
+    href: types.md
+  - name: Price
+    href: price.md
+  - name: KYC
+    href: kyc.md
+  - name: Asset
+    href: asset.md
