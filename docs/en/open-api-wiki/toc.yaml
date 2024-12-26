@@ -13,7 +13,7 @@ items:
       mode: link
   - name: History API
     include:
-      path: history/toc.yaml
+      path: hyperion/toc.yaml
       mode: link
   - name: Smart Contract API
     include:
