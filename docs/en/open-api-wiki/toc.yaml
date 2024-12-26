@@ -11,6 +11,10 @@ items:
     include:
       path: nft/toc.yaml
       mode: link
+  - name: History API
+    include:
+      path: history/toc.yaml
+      mode: link
   - name: Smart Contract API
     include:
       path: smart-contract/toc.yaml
