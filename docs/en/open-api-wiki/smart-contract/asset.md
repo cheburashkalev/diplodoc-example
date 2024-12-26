@@ -4,26 +4,26 @@
 ```
 gf.asset configure '["0.0002 GFL", 1024, 102400]'
 ```
-``контракт | экшн | [ цена за байт | минимальный размер байт | максимальный размер байт ]``
+``Contract | Action | [ Price per byte | Mininmal byte size | Maximal byte size ]``
 
 ## Store asset
 ```
 gf.asset store '[ "useraccount", "useraccount", "/9j/4AAQSkZBAQEASABIAAD/4QAiRXhbjk9eaZ" ]'
 ```
-``контракт | экшн | [ издатель | владелец | ассет base64 ]``
+``Contract | Action | [ issuer | owner | base64 Asset ]``
 
 ## Destroy asset
 ```
 gf.asset destroy '[ 1 ]'
 ```
-``контракт | экшн | [ id ассета ]``
+``Contract | Action | [ Asset ID ]``
 
 
 ## Asset owner change
 ```
 gf.asset setowner '[ 1, "useraccount" ]'
 ```
-``контракт | экшн | [ id ассета | новый владелец ]``
+``Contract | Action | [ Asset ID | New Owner ]``
 
 
 ## Action '**Configure**'
