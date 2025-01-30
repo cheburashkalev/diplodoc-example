@@ -12,3 +12,6 @@ links:
   - title: Smart Contracts
     description: Smart Contract API
     href: smart-contract/
+  - title: Smart Contracts Examples
+    description: Contract Examples
+    href: examples/

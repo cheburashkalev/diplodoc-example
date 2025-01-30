@@ -19,3 +19,7 @@ items:
     include:
       path: smart-contract/toc.yaml
       mode: link
+  - name: Smart Contract Examples
+    include:
+      path: examples/toc.yaml
+      mode: link
