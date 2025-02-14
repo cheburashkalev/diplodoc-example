@@ -14,7 +14,7 @@ items:
       mode: link
   - name: GlobalForce Wallet Wiki
     include:
-      path: walletwiki/toc.yaml
+      path: wallet-info/toc.yaml
       mode: link
   - name: GlobalForce API Wiki
     include:
