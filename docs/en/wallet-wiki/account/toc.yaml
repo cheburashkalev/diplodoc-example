@@ -1,6 +1,8 @@
 title: Account
 href: index.yaml
 items:
+  - name: Account
+    href: index.yaml    
   - name: Recovery by seed phrase
     href: by-seed-phrase.md
   - name: Recovery by private key
